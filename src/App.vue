@@ -3,13 +3,17 @@
     <Banner1 />
     <Sample />
     <Footer1 />
+    <Accord1 />
   </div>
 </template>
 
 <script>
+import 'bootstrap/dist/css/bootstrap.css';
+
 import Sample from './components/Body/Sample.vue';
 import Banner1 from './components/Header/Banner1.vue';
 import Footer1 from './components/Footer/Footer1.vue';
+import Accord1 from './components/Content/Accord1.vue';
 
 export default {
   name: 'App',
@@ -17,6 +21,7 @@ export default {
     Sample,
     Banner1,
     Footer1,
+    Accord1,
   },
 };
 </script>
